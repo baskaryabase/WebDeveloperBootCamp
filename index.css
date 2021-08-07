@@ -1,0 +1,14 @@
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.values{
+    color: #00e;
+}
+.bold{
+    font-weight:bold;
+}
+.bg{
+    background-color: #fff2f2;
+}
