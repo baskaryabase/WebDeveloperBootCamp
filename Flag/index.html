@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,36 @@
     <title>Independance Day</title>
     <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
-    <div class="container">
-        <div>
+    <div class="container" id="root">
+        <div style="margin:auto 100px">
             <button onclick="hoist()">Hoist</button>
             <button onclick="unHoist()">UnHoist</button>
+            <h3 class="message">I ❤️ My <span>INDIA<span></h3>
         </div>
         <!-- pole -->
         <div class="pole"></div>
-        <!--Flag--> 
+        <!--Flag-->
         <div class="flagContainer">
-            <div id="flag"> 
-                <!--Saffron Stripe--> 
-                <div class="stripe" id="saffron"></div> 
-                <!--White Stripe--> 
-                <div class="stripe" id="white"> 
-                    <!--Ashoka Chakra--> 
-                     <img class="ashok_chakra" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/630px-Ashoka_Chakra.svg.png" alt="Ashoka Chakra"> 
-                </div> 
-                <!--Green Stripe--> 
-                <div class="stripe" id="green"></div> 
-        
-            </div> 
+            <div id="flag">
+                <!--Saffron Stripe-->
+                <div class="stripe" id="saffron"></div>
+                <!--White Stripe-->
+                <div class="stripe" id="white">
+                    <!--Ashoka Chakra-->
+                    <img class="ashok_chakra"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/630px-Ashoka_Chakra.svg.png"
+                        alt="Ashoka Chakra">
+                </div>
+                <!--Green Stripe-->
+                <div class="stripe" id="green"></div>
+
+            </div>
         </div>
-    
-    </div> 
+
+    </div>
     <script src="./index.js"></script>
 </body>
+
 </html>
