@@ -7,6 +7,20 @@
     <title>Page 1</title>
 </head>
 <body>
-    Page 1
+    <h1>Page 12</h1>
+    <div id="root"></div>
+    <a href="/homepage">homepage</a>
+    
 </body>
+<script>
+    if(window.location.pathname ==="/login"){
+    document.querySelector("body").innerHTML="login page"
+    }
+    if(window.location.pathname ==="/register"){
+        document.querySelector("body").innerHTML = "Register page"
+    }
+    if(window.location.pathname ==="/homepage"){
+        document.querySelector("body").innerHTML = "Home page"
+    }
+        </script>
 </html>
