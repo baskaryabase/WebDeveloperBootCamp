@@ -1,0 +1,23 @@
+body {
+  background-color: #e0e0e0;
+}
+.calc-display {
+  height: 100px;
+  border-radius: 10px;
+background: #e0e0e0;
+box-shadow: inset 9px 9px 18px #5a5a5a,
+            inset -9px -9px 18px #ffffff;
+}
+
+.btn-number {
+  border: none;
+  border-radius: 15px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  padding: 10px;
+  margin-top: 2rem;
+  text-align: center;
+}
+.whole-content {
+
+}
