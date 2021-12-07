@@ -1,0 +1,20 @@
+h1 {
+  color: red;
+  font-size: 100px;
+  font-family: "Courier New", Courier, monospace;
+}
+p {
+  color: aqua;
+}
+.st::after {
+  content: "jio";
+  color: green;
+  border-bottom: 1px solid blue;
+  background: url("../download.jpeg");
+  background-repeat: round;
+}
+.st::before {
+  content: "jio";
+  background: url("https://picsum.photos/201");
+  object-fit: contain;
+}
